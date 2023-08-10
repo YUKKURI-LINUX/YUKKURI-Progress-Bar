@@ -3,10 +3,9 @@
 Plymouth-Progress-Bar is a Plymoyth theme featuring a progress bar, available in various color schemes. It is based on **[Micheal Bearly's Apple Mac Plymouth Bar](https://www.opencode.net/mikebearly/apple-mac-plymouth)**
 
 # Screenshots
-<img src='screenshots/adwaita-blue-dark.png' alt='drawing' width='25%'/><img src='screenshots/adwaita-blue-light.png' alt='drawing' width='25%'/><img src='screenshots/arch-linux-branded.png' alt='drawing' width='25%'/><img src='screenshots/breeze-blue-dark.png' alt='drawing' width='25%'/><img src='screenshots/breeze-blue-light.png' alt='drawing' width='25%'/><img src='screenshots/debian-branded.png' alt='drawing' width='25%'/><img src='screenshots/fedora-branded.png' alt='drawing' width='25%'/><img src='screenshots/manjaro-branded.png' alt='drawing' width='25%'/><img src='screenshots/opensuse-branded.png' alt='drawing' width='25%'/><img src='screenshots/steam-os-branded.png' alt='drawing' width='25%'/><img src='screenshots/ubuntu-branded.png' alt='drawing' width='25%'/><img src='screenshots/fry-dark.png' alt='drawing' width='25%'/>
+<img src='screenshots/yk-branded.png' alt='drawing' width='75%'/>
 
-
-**[Screenshots folder (including encryption prompt)](https://github.com/1deterministic/Plymouth-Progress-Bar/tree/master/screenshots)**
+**[Screenshots folder (including encryption prompt)](https://github.com/YUKKURI-LINUX/YUKKURI-Progress-Bar/tree/master/screenshots)**
 
 # Building
 Just run `build.sh` from the project folder. It will create a folder called `build`, where all color schemes will be available with their own folders.
@@ -25,4 +24,10 @@ This will vary between distros, but the general rule is:
 * Edit `/etc/plymouth/plymouth.conf`, changing `Theme=` to match your theme (e.g. `Theme=adwaita-blue-dark`)
 * Regenerate your initramfs as well as your grub.cfg (on Debian/Ubuntu should be `update-initramfs -u` and `update-grub`, both as root)
 
-## [1deterministic](https://github.com/1deterministic), 2019
+# Additional
+This fork's build script contains Debian package build method.
+To use in other distribution, delete last 3 lines in build.sh.
+IMPORTANT! Ubuntu is NOT SUPPORTED BY THIS PACKAGE!
+
+## Original: [1deterministic](https://github.com/1deterministic), 2019
+## Artwork Creator: [Sylphid-Modder](https://github.com/Sylphid-Modder)

@@ -1,0 +1,6 @@
+#!/bin/bash
+
+plymouth-set-default-theme emerald
+rm -rf /usr/share/plymouth/themes/yukkuri
+rm -rf /usr/share/plymouth/themes/yukkuri-branded
+update-initramfs -u

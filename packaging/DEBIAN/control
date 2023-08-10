@@ -1,0 +1,9 @@
+Package: plymouth-theme-yukkuri
+Version: 1.0
+Architecture: amd64
+Maintainer: YUKKURI Linux Developer Team
+Depends: plymouth, plymouth-themes
+Section: utlis
+Priority: optional
+Homepage: 
+Description: The theme of Plymouth for YUKKURI Linux.

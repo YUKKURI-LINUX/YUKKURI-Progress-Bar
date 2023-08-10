@@ -1,0 +1,4 @@
+#!/bin/bash
+
+plymouth-set-default-theme yukkuri-branded
+update-initramfs -u
